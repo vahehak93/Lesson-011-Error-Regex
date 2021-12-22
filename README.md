@@ -25,7 +25,7 @@ return the string YES. Otherwise, it must throw an Error according to the follow
 
 - Task 3\
 Convert the code using try...catch.\
-```
+```javascript
 function reverseString(s) {
 typeof s !== "string"
 ? console.log("s.split is not a function")
@@ -43,7 +43,7 @@ then the lab is considered a failure.\
 The gradeLabs function works for the majority of cases. However, what happens if a student named their
 function incorrectly? Run gradeLabs and pass it studentLabs2 as defined below.
 
-```
+```javascript
 let studentLabs2 = [
 {
 student: "Blake",
@@ -90,7 +90,7 @@ Create a RegExp myRegExp to test if a string is a valid pin or not. A valid pin 
 | myRegExp.test("900876") | true |
 | myRegExp.test(" 4983") | false |
 
-```
+```javascript
 const REGEXP = /abc/;
 let str = '<> <a href="/"> <input type="radio" checked> <b>';
 str.match(REGEXP);
